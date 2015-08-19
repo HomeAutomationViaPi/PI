@@ -1,0 +1,34 @@
+  TIME: 2015-08-10 06:32:50.874
+    IP: 0.0.0.0 (e8:91:20:c3:45:f2) > 255.255.255.255 (ff:ff:ff:ff:ff:ff)
+    OP: 1 (BOOTPREQUEST)
+ HTYPE: 1 (Ethernet)
+  HLEN: 6
+  HOPS: 0
+   XID: 69649075
+  SECS: 0
+ FLAGS: 0
+CIADDR: 0.0.0.0
+YIADDR: 0.0.0.0
+SIADDR: 0.0.0.0
+GIADDR: 0.0.0.0
+CHADDR: e8:91:20:c3:45:f2:00:00:00:00:00:00:00:00:00:00
+ SNAME: .
+ FNAME: .
+OPTION:  53 (  1) DHCP message type         3 (DHCPREQUEST)
+OPTION:  61 (  7) Client-identifier         01:e8:91:20:c3:45:f2
+OPTION:  50 (  4) Request IP address        10.0.0.28
+OPTION:  57 (  2) Maximum DHCP message size 1500
+OPTION:  60 ( 12) Vendor class identifier   dhcpcd-5.5.6
+OPTION:  12 ( 24) Host name                 android-9621e7b59f7ad9ca
+OPTION:  55 (  9) Parameter Request List      1 (Subnet mask)
+					     33 (Static route)
+					      3 (Routers)
+					      6 (DNS server)
+					     15 (Domainname)
+					     28 (Broadcast address)
+					     51 (IP address leasetime)
+					     58 (T1)
+					     59 (T2)
+					    
+---------------------------------------------------------------------------
+

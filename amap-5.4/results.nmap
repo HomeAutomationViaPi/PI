@@ -1,0 +1,16 @@
+# Nmap 6.00 scan initiated Sat Aug  8 20:44:04 2015 as: nmap -oM results.nmap 10.0.0.0/24
+Host: 10.0.0.1 ()	Status: Up
+Host: 10.0.0.1 ()	Ports: 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 53/open/tcp//domain///, 80/open/tcp//http///, 443/open/tcp//https///, 705/open/tcp//agentx///, 1026/open/tcp//LSA-or-nterm///, 1027/open/tcp//IIS///, 1028/open/tcp//unknown///, 1029/open/tcp//ms-lsa///, 2601/open/tcp//zebra///, 49152/open/tcp//unknown///, 49153/open/tcp//unknown///, 49154/open/tcp//unknown///	Ignored State: closed (986)
+Host: 10.0.0.2 ()	Status: Up
+Host: 10.0.0.2 ()	Ports: 1443/open/tcp//ies-lm///	Ignored State: closed (999)
+Host: 10.0.0.6 ()	Status: Up
+Host: 10.0.0.6 ()	Ports: 1443/open/tcp//ies-lm///	Ignored State: closed (999)
+Host: 10.0.0.82 ()	Status: Up
+Host: 10.0.0.82 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 9418/open/tcp//git///	Ignored State: closed (997)
+Host: 10.0.0.156 ()	Status: Up
+Host: 10.0.0.156 ()	Status: Up
+Host: 10.0.0.237 ()	Status: Up
+Host: 10.0.0.237 ()	Ports: 8008/open/tcp//http///	Ignored State: closed (999)
+Host: 10.0.0.254 ()	Status: Up
+Host: 10.0.0.254 ()	Ports: 49152/open/tcp//unknown///	Ignored State: closed (999)
+# Nmap done at Sat Aug  8 20:44:22 2015 -- 256 IP addresses (7 hosts up) scanned in 18.42 seconds
