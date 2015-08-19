@@ -1,0 +1,602 @@
+Xsession: X session started for pi at Mon Feb 16 14:03:36 UTC 2015
+localuser:pi being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+
+** (lxpolkit:2683): WARNING **: Unable to register authentication agent: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: Cannot determine user of subject
+
+(lxpolkit:2683): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpolkit:2683): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (pcmanfm:2679): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+** (lxpanel:2676): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+(lxpanel:2676): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxpanel:2676): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxpanel:2676): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxpanel:2676): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxpanel:2676): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpanel:2676): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+
+(pcmanfm:2679): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(pcmanfm:2679): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(pcmanfm:2679): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(pcmanfm:2679): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(pcmanfm:2679): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+** (epiphany-browser:2724): WARNING **: Error retrieving accessibility bus address: org.freedesktop.DBus.Error.ServiceUnknown: The name org.a11y.Bus was not provided by any .service files
+** Message: Remote error from secret service: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.secrets was not provided by any .service files
+
+** (epiphany-browser:2724): WARNING **: Error caching form data: The name org.freedesktop.secrets was not provided by any .service files
+
+(lxterminal:2745): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+
+(lxterminal:2745): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxterminal:2745): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxterminal:2745): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxterminal:2745): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxterminal:2745): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2745): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Warning: no translation found for 'en_GB' locale: /usr/share/qt4/translations/qt_en_GB.qm
+Warning: no translation found for 'en_GB' locale: /usr/share/locale/qjackctl_en_GB.qm
+
+(openbox:2674): GLib-CRITICAL **: Source ID 11 was not found when attempting to remove it
+
+(openbox:2674): GLib-CRITICAL **: Source ID 12 was not found when attempting to remove it
+XIO:  fatal IO error 4 (Interrupted system call) on X server ":0"
+      after 59807 requests (59807 known processed) with 0 events remaining.
+Xsession: X session started for pi at Tue Aug  4 04:05:35 UTC 2015
+localuser:pi being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (lxpanel:2461): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+** (pcmanfm:2465): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+(lxpanel:2461): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxpanel:2461): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxpanel:2461): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxpanel:2461): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxpanel:2461): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpanel:2461): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+
+(pcmanfm:2465): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(pcmanfm:2465): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(pcmanfm:2465): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(pcmanfm:2465): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(pcmanfm:2465): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2511): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+
+(lxterminal:2511): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxterminal:2511): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxterminal:2511): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxterminal:2511): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxterminal:2511): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2511): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Xsession: X session started for pi at Wed Aug  5 20:57:20 UTC 2015
+localuser:pi being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (pcmanfm:6441): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+** (lxpanel:6438): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+(lxpanel:6438): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxpanel:6438): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxpanel:6438): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxpanel:6438): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxpanel:6438): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpanel:6438): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+
+(pcmanfm:6441): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(pcmanfm:6441): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(pcmanfm:6441): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(pcmanfm:6441): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(pcmanfm:6441): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:6485): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+
+(lxterminal:6485): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxterminal:6485): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxterminal:6485): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxterminal:6485): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxterminal:6485): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:6485): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Xsession: X session started for pi at Thu Aug  6 00:06:00 UTC 2015
+localuser:pi being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+
+** (lxpolkit:2768): WARNING **: Unable to register authentication agent: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: Cannot determine user of subject
+
+(lxpolkit:2768): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpolkit:2768): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (pcmanfm:2765): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+** (lxpanel:2762): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+(lxpanel:2762): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxpanel:2762): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxpanel:2762): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxpanel:2762): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxpanel:2762): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpanel:2762): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+
+(pcmanfm:2765): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(pcmanfm:2765): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(pcmanfm:2765): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(pcmanfm:2765): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(pcmanfm:2765): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2808): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+
+(lxterminal:2808): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxterminal:2808): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxterminal:2808): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxterminal:2808): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxterminal:2808): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2808): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Xsession: X session started for pi at Thu Aug  6 23:19:44 UTC 2015
+localuser:pi being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+
+** (lxpolkit:5907): WARNING **: Unable to register authentication agent: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: Cannot determine user of subject
+
+(lxpolkit:5907): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpolkit:5907): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (pcmanfm:5903): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+** (lxpanel:5900): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+(lxpanel:5900): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxpanel:5900): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxpanel:5900): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxpanel:5900): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxpanel:5900): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpanel:5900): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+
+(pcmanfm:5903): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(pcmanfm:5903): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(pcmanfm:5903): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(pcmanfm:5903): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(pcmanfm:5903): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:5947): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+
+(lxterminal:5947): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxterminal:5947): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxterminal:5947): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxterminal:5947): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxterminal:5947): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:5947): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+
+(lxterminal:13559): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+
+(lxterminal:13559): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxterminal:13559): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxterminal:13559): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxterminal:13559): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxterminal:13559): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:13559): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+
+** (lxpanel:5900): WARNING **: lxpanel : X error: BadWindow (invalid Window parameter)
+
+** (lxpanel:5900): WARNING **: lxpanel : X error: BadWindow (invalid Window parameter)
+Openbox-Message: Requested key "F13" does not exist on the display
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 52077 requests (52077 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Xsession: X session started for pi at Sat Aug  8 03:08:41 UTC 2015
+localuser:pi being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+
+** (lxpolkit:2423): WARNING **: Unable to register authentication agent: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: Cannot determine user of subject
+
+(lxpolkit:2423): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpolkit:2423): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (pcmanfm:2419): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+** (lxpanel:2416): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+(lxpanel:2416): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxpanel:2416): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxpanel:2416): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxpanel:2416): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxpanel:2416): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(pcmanfm:2419): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(pcmanfm:2419): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(pcmanfm:2419): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(pcmanfm:2419): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpanel:2416): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+
+(pcmanfm:2419): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (lxpanel:2461): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+(lxpanel:2461): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxpanel:2461): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxpanel:2461): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxpanel:2461): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxpanel:2461): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpanel:2461): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+
+(lxterminal:2466): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+
+(lxterminal:2466): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxterminal:2466): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxterminal:2466): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxterminal:2466): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxterminal:2466): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2466): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 14096 requests (14096 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Xsession: X session started for pi at Sat Aug  8 03:17:29 UTC 2015
+localuser:pi being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+
+** (lxpolkit:2427): WARNING **: Unable to register authentication agent: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: Cannot determine user of subject
+
+(lxpolkit:2427): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpolkit:2427): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (lxpanel:2420): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+** (pcmanfm:2424): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+(lxpanel:2420): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxpanel:2420): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxpanel:2420): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxpanel:2420): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxpanel:2420): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpanel:2420): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+
+(pcmanfm:2424): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(pcmanfm:2424): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(pcmanfm:2424): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(pcmanfm:2424): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(pcmanfm:2424): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2467): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+
+(lxterminal:2467): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxterminal:2467): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxterminal:2467): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxterminal:2467): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxterminal:2467): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2467): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Xsession: X session started for pi at Mon Aug 10 03:35:36 UTC 2015
+localuser:pi being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+
+** (lxpolkit:2926): WARNING **: Unable to register authentication agent: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: Cannot determine user of subject
+
+(lxpolkit:2926): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpolkit:2926): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (pcmanfm:2922): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+** (lxpanel:2919): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+(lxpanel:2919): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxpanel:2919): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxpanel:2919): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxpanel:2919): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxpanel:2919): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpanel:2919): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+
+(pcmanfm:2922): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(pcmanfm:2922): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(pcmanfm:2922): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(pcmanfm:2922): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(pcmanfm:2922): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2966): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+
+(lxterminal:2966): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxterminal:2966): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxterminal:2966): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxterminal:2966): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxterminal:2966): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2966): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Xsession: X session started for pi at Fri Aug 14 21:20:28 UTC 2015
+localuser:pi being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+
+** (lxpolkit:2738): WARNING **: Unable to register authentication agent: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: Cannot determine user of subject
+
+(lxpolkit:2738): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpolkit:2738): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (pcmanfm:2734): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+** (lxpanel:2731): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+(lxpanel:2731): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxpanel:2731): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxpanel:2731): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxpanel:2731): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxpanel:2731): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpanel:2731): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+
+(pcmanfm:2734): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(pcmanfm:2734): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(pcmanfm:2734): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(pcmanfm:2734): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(pcmanfm:2734): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2779): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+
+(lxterminal:2779): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxterminal:2779): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxterminal:2779): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxterminal:2779): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxterminal:2779): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2779): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 9129 requests (9126 known processed) with 0 events remaining.
+pcmanfm: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+Xsession: X session started for pi at Fri Aug 14 22:56:20 UTC 2015
+localuser:pi being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+
+** (lxpolkit:2790): WARNING **: Unable to register authentication agent: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: Cannot determine user of subject
+
+(lxpolkit:2790): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpolkit:2790): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (pcmanfm:2787): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+** (lxpanel:2783): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+(lxpanel:2783): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxpanel:2783): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxpanel:2783): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxpanel:2783): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxpanel:2783): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpanel:2783): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+
+(pcmanfm:2787): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(pcmanfm:2787): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(pcmanfm:2787): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(pcmanfm:2787): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(pcmanfm:2787): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2835): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-bar-popup-delay after class was initialised
+
+(lxterminal:2835): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxterminal:2835): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxterminal:2835): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxterminal:2835): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxterminal:2835): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxterminal:2835): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Xsession: X session started for pi at Tue Aug 18 19:19:37 UTC 2015
+localuser:pi being added to access control list
+Obt-Message: Xinerama extension is not present on the server
+
+** (lxpolkit:9376): WARNING **: Unable to register authentication agent: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: Cannot determine user of subject
+
+(lxpolkit:9376): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpolkit:9376): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+** Message: x-terminal-emulator has very limited support, consider choose another terminal
+
+** (lxpanel:9369): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+** (pcmanfm:9373): WARNING **: The directory '~/Templates' doesn't exist, ignoring it
+
+(lxpanel:9369): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(lxpanel:9369): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(lxpanel:9369): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(lxpanel:9369): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
+
+(lxpanel:9369): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(lxpanel:9369): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-button-images after class was initialised
+
+(pcmanfm:9373): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-can-change-accels after class was initialised
+
+(pcmanfm:9373): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popup-delay after class was initialised
+
+(pcmanfm:9373): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-popdown-delay after class was initialised
+
+(pcmanfm:9373): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-label-select-on-focus after class was initialised
+
+(pcmanfm:9373): GLib-GObject-WARNING **: Attempt to add property GtkSettings::gtk-menu-images after class was initialised
