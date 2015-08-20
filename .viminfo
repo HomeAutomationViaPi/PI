@@ -11,11 +11,11 @@
 ~MSle0~/DHCP
 
 # Command Line History (newest to oldest):
+:q!
 :q
 :wq
 :w
 :Q
-:q!
 :20
 :/DHCP
 :6
@@ -63,11 +63,11 @@
 "0	LINE	0
 	curl --data "source=arp&data=$arpdata" http://$backendserver/internal/store.php
 ""1	LINE	0
-	
+	$target="10.0.0.1";
 "2	LINE	0
-	PiID="test123"
+	
 "3	LINE	0
-	backendserver=10.8.0.1
+	PiID="test123"
 "4	LINE	0
 	backendserver=10.8.0.1
 "5	LINE	0
@@ -75,27 +75,33 @@
 "6	LINE	0
 	backendserver=10.8.0.1
 "7	LINE	0
-	curl --data "source=sonos&data=$sonosdata" http://$backendserver/internal/store.php
+	backendserver=10.8.0.1
 "8	LINE	0
-	sonosdata=`socos list`
+	curl --data "source=sonos&data=$sonosdata" http://$backendserver/internal/store.php
 "9	LINE	0
-	echo "SONOS"
+	sonosdata=`socos list`
 "-	CHAR	0
 	s
 
 # File marks:
-'0  1  0  ~/discover.sh
-'1  1  0  ~/config.sh
-'2  2  0  ~/discover.sh
-'3  6  0  ~/discover.sh
-'4  22  0  ~/discover.sh
-'5  16  55  ~/discover.sh
-'6  28  56  ~/discover.sh
-'7  13  0  ~/discover.sh
-'8  12  0  ~/discover.sh
-'9  1  0  ~/checkin.sh
+'0  3  0  /var/www/puller.php
+'1  2  2  /var/www/index.html
+'2  121  0  /etc/openvpn/client.conf
+'3  1  0  ~/discover.sh
+'4  1  0  ~/config.sh
+'5  2  0  ~/discover.sh
+'6  6  0  ~/discover.sh
+'7  22  0  ~/discover.sh
+'8  16  55  ~/discover.sh
+'9  28  56  ~/discover.sh
 
 # Jumplist (newest first):
+-'  3  0  /var/www/puller.php
+-'  1  0  /var/www/puller.php
+-'  2  2  /var/www/index.html
+-'  1  0  /var/www/index.html
+-'  121  0  /etc/openvpn/client.conf
+-'  1  0  /etc/openvpn/client.conf
 -'  1  0  ~/discover.sh
 -'  1  0  ~/config.sh
 -'  2  0  ~/discover.sh
@@ -153,7 +159,6 @@
 -'  29  0  ~/index.html
 -'  1  0  ~/index.html
 -'  99  10  /etc/openvpn/client.conf
--'  1  0  /etc/openvpn/client.conf
 -'  79  0  /etc/openvpn/server.conf
 -'  1  0  /etc/openvpn/server.conf
 -'  12  12  ~/discover
@@ -188,13 +193,30 @@
 -'  1  0  ~/config
 -'  40  22  ~/.commands.conf
 -'  38  25  ~/.commands.conf
--'  39  15  ~/.commands.conf
--'  1  0  ~/PiAUISuite/config
--'  18  47  ~/PiAUISuite/get_weather_yahoo.py
--'  1  0  ~/PiAUISuite/get_weather_yahoo.py
--'  23  16  ~/PiAUISuite/config
 
 # History of marks within files (newest to oldest):
+
+> /var/www/puller.php
+	"	3	0
+	^	3	24
+	.	3	0
+	+	9	0
+	+	7	0
+	+	5	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	3	0
+
+> /var/www/index.html
+	"	2	2
+
+> /etc/openvpn/client.conf
+	"	121	0
+	^	99	11
+	.	90	10
+	+	89	11
+	+	90	10
 
 > ~/discover.sh
 	"	1	0
@@ -528,13 +550,6 @@
 
 > ~/index.html
 	"	29	0
-
-> /etc/openvpn/client.conf
-	"	99	10
-	^	99	11
-	.	90	10
-	+	89	11
-	+	90	10
 
 > /etc/openvpn/server.conf
 	"	79	0

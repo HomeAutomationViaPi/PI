@@ -1004,3 +1004,110 @@ vim dhcpmon.sh
 ls -la
 vewm .commands.conf
 view .commands.conf
+who
+ls
+cd PiAUISuite/
+ls
+cd VoiceCommand/
+ls
+cd ..
+ls
+cd /usr/local/bin/
+ls
+cd ..
+ls
+cd /home/
+ls
+cd pi/
+ls
+rm *.php
+sudo rm *.php
+ls
+rm store.php.*
+ls
+vim discover 
+pwd
+vim discover 
+vi dhcpmon.sh 
+cd PiAUISuite/
+ls
+cd..
+cd ...
+cd
+ls
+pws
+pwd
+vim .commands.conf 
+echo "# PI" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/HomeAutomationViaPi/PI.git
+git push -u origin master
+git config --global user.email "mr.lance.harris@gmail.com"
+git config --global user.name "Lance Harris"
+echo "# PI" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/HomeAutomationViaPi/PI.git
+git push -u origin master
+ls
+git add *.*
+git commit -m "second"
+git push -u origin master
+ls
+cd /var/www/
+ls
+cd /home/pi
+ls
+mv discover discover.sh
+cp discover.sh checkin.sh
+vim checkin.sh 
+./checkin.sh 
+ls
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+cp discover.sh config.sh
+vim config.sh 
+vim checkin.sh 
+vim config.sh 
+vim discover.sh 
+vim checkin.sh 
+ls -la
+ls
+vim checkin.sh 
+vim discover.sh 
+vim config.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+vim config.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+ls
+git push origin master
+git commit -m 'First commit'
+q
+ls
+git init'
+git init
+git commit -m 'Last'
+git add .
+git commit -m 'Last'
+git push origin master
