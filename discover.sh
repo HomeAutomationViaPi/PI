@@ -11,9 +11,14 @@ echo "Brdc= "$brdc
 inter=`ip -o -f inet addr show|awk '/brd/ {print $2}'`
 curl --data "source=network&ID=$PiID&ip=$ip&inter=$inter&cidr=$cidr&brdc=$brdc" http://$backendserver/internal/store.php
 
+echo "FING"
+fingdata==`sudo fing $brdc/$cidr -r1`
+curl --data "source=fing&data=$fingdata&ID=$PiID&ip=$ip" http://$backendserver/internal/store.php
+
 echo "NMAP"
 nmapdata=`nmap $brdc/$cidr|grep 'report\|open'`
 curl --data "source=nmap&data=$nmapdata&ID=$PiID&ip=$ip" http://$backendserver/internal/store.php
+
 
 echo "NBTSCAN"
 nbtdata=`sudo nbtscan -q -s, -r $brdc/$cidr|grep -v '<unknown>'`

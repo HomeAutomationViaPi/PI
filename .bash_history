@@ -1111,3 +1111,38 @@ git commit -m 'Last'
 git add .
 git commit -m 'Last'
 git push origin master
+nmap -A 10.0.0.255/24
+ls
+q
+cd /etc/openvpn/
+ls
+vim client.conf 
+ifconfig
+cd ..
+ls
+cd ..
+ls
+cd home/pi/
+ls
+cd /var/www/
+l
+ls
+vim index.html 
+ls
+vim puller.php
+sudo su
+ifconfig
+ls
+cd /var/www/
+ls
+vim puller.php 
+sudo su
+ls
+cd /home/pi
+ls
+git add .
+git commit -m "8-20-2015"
+git push origin master
+vim /etc/privoxy/config 
+ping 10.8.0.6
+sudo su
