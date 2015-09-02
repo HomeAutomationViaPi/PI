@@ -42,16 +42,6 @@ GNU Emacs 23
 /usr/bin/emacs23 %F
 0
 0
--wolfram-mathematica.desktop
-Mathematica
-Technical Computing System
-wolfram-mathematica
-
-9
-Mathematica
-/opt/Wolfram/WolframEngine/10.0/Executables/Mathematica %F
-2
-0
 -idle.desktop
 Python 2
 Integrated development environment for Python 2
@@ -91,16 +81,6 @@ Learn programming and computer science while creating music
 Sonic Pi
 sonic-pi
 0
-0
--wolfram-language.desktop
-Wolfram
-Technical Programming Environment
-wolfram-language
-
-9
-Wolfram
-x-terminal-emulator -t "Wolfram Language" -e wolfram
-2
 0
 
 +Internet

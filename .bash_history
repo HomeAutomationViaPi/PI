@@ -1146,3 +1146,497 @@ git push origin master
 vim /etc/privoxy/config 
 ping 10.8.0.6
 sudo su
+ls
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+ls
+git -add .
+git add .
+git commit -m "8-21-2015"
+git push -u origin master
+vim discover.sh 
+ls
+./discover.sh 
+nmap -A 10.0.0.1/24
+dig 10.0.0.82
+nslookup 10.0.0.82
+sudo apt-get install fing
+ls
+sudo dpkg -i fing.deb
+sudo fing -d 10.0.0.255/24 -r 1
+sudo fing
+vim discover.sh 
+sudo fing -d 10.0.0.1/24 -r1
+sudo fing -d 10.0.0.255/24 -r1
+man fing
+fing
+sudo fing --help
+sudo fing 10.0.0.255/24 -r1
+Q
+sudo fing 10.0.0.255/24 -r1|grep "Host"|cut -d"\t" -f2
+sudo fing 10.0.0.255/24 -r1|grep "Host"|cut -f2
+sudo fing 10.0.0.255/24 -r1|grep "Host"|cut -d":" -f2
+fing --help
+sudo fing 10.0.0.255/24 -r1|grep "Host"
+sudo fing 10.0.0.255/24 -r1|grep "Host is"
+sudo fing 10.0.0.255/24 -r1|grep "Host is"|cut -d 2-5
+sudo fing 10.0.0.255/24 -r1|grep "Host is"|cut -f2-5
+sudo fing 10.0.0.255/24 -r1|grep "Host is"|cut -f0-5
+sudo fing 10.0.0.255/24 -r1|grep "Host is"|cut -f1-5
+./discover.sh 
+fing 
+sudo fing 10.0.0.1/24
+./discover.sh 
+flin 10.0.0.1/24
+fing 10.0.0.1/24
+sudo fing 10.0.0.1/24
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+fing 10.0.0.1/24 -r1
+sudo fing 10.0.0.1/24 -r1
+fing -r1 -n10.255.0.0/16 -o table,csv
+sudo fing -r1 -n10.255.0.0/16 -o table,csv
+sudo fing -r1 -n10.0.0.255/24 -o table,csv
+sudo fing -r1 -n10.0.0.255/24 -o csv
+sudo fing -r1 -n10.0.0.255/24 -o table,csv
+sudo fing -r1 -n10.0.0.255/24 -o table,csvq
+vim discover.sh 
+vim /etc/resolv.conf 
+nslookup
+apt-get install nslookup
+sudo apt-get install nslookup
+sudo apt-get install dig
+sudo apt-get update
+sudo apt-get install dnsutils
+nslookup 10.0.0.131 10.0.0.1
+nslookup 10.0.0.95 10.0.0.1
+nslookup 10.0.0.916 10.0.0.1
+nslookup 10.0.0.16 10.0.0.1
+nslookup 10.0.0.61 10.0.0.1
+nslookup 10.0.0.28 10.0.0.1
+nslookup 10.0.0.1 10.0.0.1
+nslookup 10.0.0.2 10.0.0.1
+nslookup 10.0.0.6 10.0.0.1
+nslookup 10.0.0.195 10.0.0.1
+nslookup 10.0.0.237 10.0.0.1
+vim discover.sh 
+nmap –dns-servers 10.0.0.1 10.0.0.255/24
+man nmap
+nmap -–dns-servers 10.0.0.1 10.0.0.255/24
+nmap -–dns-servers <10.0.0.1> 10.0.0.255/24
+nmap -–dns-servers<10.0.0.1> 10.0.0.255/24
+nmap -–dns-servers 10.0.0.1 10.0.0.255/24
+vim discover.sh 
+nmap -–dns-servers 10.0.0.1 -o 10.0.0.255/24
+nmap -–dns-servers 10.0.0.1 -O10.0.0.255/24
+nmap -–dns-servers 10.0.0.1 -O 10.0.0.255/24
+nmap -v  -–dns-servers 10.0.0.1 10.0.0.255/24
+nmap -v -–dns-servers 10.0.0.1 10.0.0.255/24
+nmap -R -–dns-servers 10.0.0.1 10.0.0.255/24
+cd PiAUISuite/VoiceCommand/
+./voicecommand 
+ls
+cd ..
+ls
+cd ..
+ls
+vim .commands.conf 
+ls
+sudo suh
+sudo shutdonw -r now
+sudo shutdown -r now
+startx
+cd PiAUISuite/VoiceCommand/
+./tts test
+sudo raspi-config 
+./tts test
+sudo vim /boot/config.txt 
+sudo shutdonw 
+sudo shutdown -r now
+cd PiAUISuite/VoiceCommand/
+tts test
+ls
+./voicecommand 
+startx
+ls
+vim discover.sh 
+nmap -–dns-servers 10.0.0.1 10.0.0.255/24
+nmap -–dns-servers 10.0.0.1 
+nmap -–dns-servers 10.0.0.1
+nmap -sL -–dns-servers 10.0.0.1
+nmap -PS -–dns-servers 10.0.0.1
+nmap -sL -–dns-servers 10.0.0.1 10.0.0.255/24
+nmap -PS -–dns-servers 10.0.0.1 10.0.0.255/24
+nmap -PS -–dns-servers 10.0.0.1: 10.0.0.255/24
+nmap -PS -–dns-servers [10.0.0.1]: 10.0.0.255/24
+nmap -sL -–dns-servers [10.0.0.1]: 10.0.0.255/24
+nmap -sL -–dns-servers 10.0.0.1 10.0.0.255/24
+nmap –dns-servers 8.8.8.8,8.8.4.4 scanme.nmap.org
+nmap –dns-servers 8.8.8.8,8.8.4.4 10.0.0.82
+nmap –dns-servers 10.0.0.1  10.0.0.82
+nmap –dns-servers 10.0.0.1 10.0.0.82
+man nslookup
+vim discover.sh 
+ip -o -f inet addr show
+route
+route | grep default|cut -f2
+route | grep default|cut -q-f2
+vim discover.sh 
+route | grep default|tr -s ' ' | cut -d ' ' -f 2
+vim discover.sh 
+nmap –dns-servers 10.0.0.1 10.0.0.82
+nslookuo
+man nslookup
+vim discover.sh 
+nmap 10.0.0.255/24|grep 'report'
+nmap 10.0.0.255/24|grep 'report'|cut -d" " -f4
+nmap 10.0.0.255/24|grep 'report'|cut -d" " -f5
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+nslookup 10.0.0.82 10.10.10.1
+nslookup 10.0.0.82 10.0.0.1
+vim discover.sh 
+nslookup 10.0.0.82 10.0.0.1
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+route|grep default|tr -s ' '| cut -d' ' -f 2
+route|grep default|tr -s ' '|cut -d' ' -f 2
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+ls
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+nmap
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+./discover.sh 
+vim discover.sh 
+sduo su
+sudo su
+ls
+vim dhcpmon.sh 
+vim vim /etc/rc.local 
+sudo vim /etc/rc.local 
+pwd
+ls
+sudo vim /etc/rc.local 
+ls
+sudo apt-get install libusb-1.0-0-dev
+wget -O mochad.tgz http://sourceforge.net/projects/mochad/files/latest/download
+tar -zxf mochad.tgz 
+cd mochad-0.1.16/
+ls
+./configure 
+make
+sudo make install
+ls
+cd apps/
+ls
+vim mochamon.pl 
+./mochamon.pl 
+vim x10`
+vim x10-tk.py 
+./x10-tk.py 
+ls
+vim bash.sh 
+./bash.sh simplemon.pl 
+./bash.sh
+ls
+cd ..
+ls
+vim README 
+nc localhost 1099
+ps -elf
+ps -elf -l
+netsat -l
+netstat -l
+vim README 
+ls
+vim INSTALL 
+vim README 
+netstat -l
+netstat 
+ls
+vim configure
+vim README 
+nc localhost 1099
+echo "pl a1 on" | nc localhost 1099
+./mochad 
+cd ..
+ls
+rm -rf mochad
+rm -rf mochad-0.1.16/
+rm -rf mochad.tgz 
+ls
+wget http://sourceforge.net/projects/pylights/files/latest/download
+ls
+mv download download.zip
+unzip download.zip 
+ls
+vim devices.xml 
+python pylights.py 
+vim pylights.py 
+cp pylights.py lighton.py
+vim lighton.py 
+sudo su
+ls
+vim devices.xml 
+python lighton.py 
+vim devices.xml 
+vim lighton.py 
+python lighton.py 
+startx
+cd /var/www/
+ls
+cp puller.php voiceconf.php
+sudo su
+ls
+git add .
+ls
+cd /home/pi/
+ls
+wget -q -O - razberry.z-wave.me/install | sudo bash
+reboot
+sudo reboot
+ls
+ifconfig
+ls
+service privoxy start
+sudo service privoxy start
+vim /etc/privoxy/config 
+sudo vim /etc/privoxy/config 
+sudo service privoxy restart
+sudo vim /etc/privoxy/config 
+cd /etc/mongoose/
+ls
+vim mongoose.conf 
+/etc/init.d/mongoose restart
+service nginx restart
+vim /etc/apache2/apache2.conf 
+cd /etc/apache2/
+ls
+cd sites-enabled/
+ls
+vim 000-default 
+vim /etc/z-way/
+cd /etc/z-way/
+l
+ls
+cd bo
+vim box_type 
+vim /etc/zbw/local_port 
+vim /etc/zbw
+cd  /etc/zbw
+ls
+cd flags/
+ls
+cd ..
+ls
+where is zwave
+whereis zwave
+ps -elf
+ps -elf|grep zw
+ps -elf|grep z
+cd /etc/z-way/
+ls
+vim /etc/init.d/zbw_connect 
+cd /home/pi/
+ls
+netstat -l
+ls
+cd /etc/privoxy/
+ls
+vim default.action 
+vim match-all.action 
+vim trust 
+ls
+sudo default.action
+sudo vim default.action 
+ls
+cd /var/www/
+ls
+vim index.html 
+midori
+ls sudo apt-get install subversion libudev-dev make build-essential git-core
+svn checkout http://open-zwave.googlecode.com/svn/trunk/ open-zwave-read-only
+sudo svn checkout http://open-zwave.googlecode.com/svn/trunk/ open-zwave-read-only
+ls
+cd open-zwave-read-only/
+ls
+vim MOVED_TO_GITHUB 
+cd ..
+rm -rf open-zwave-read-only/
+sudo rm -rf open-zwave-read-only/
+ls
+wget https://github.com/OpenZWave/open-zwave/archive/master.zip
+sudo wget https://github.com/OpenZWave/open-zwave/archive/master.zip
+ls
+unzip master.zip 
+sudo unzip master.zip 
+ls
+cd open-zwave-master/
+ls
+make
+cd ..
+ls
+sudo rm -rf open-zwave-master/
+cd /home/pi/
+ls
+sudo apt-get install cmake make gcc g++ libboost-dev libboost-thread-dev libboost-system-dev libboost-python-dev libssl-dev subversion curl libcurl4-openssl-dev libusb-dev python-dev
+mkdir domoticz
+cd domoticz
+wget http://domoticz.sourceforge.net/domoticz_linux_armv7l.tgz
+tar xvfz domoticz_linux_armv7l.tgz
+rm domoticz_linux_armv7l.tgz
+sudo apt-get install libudev-dev
+git clone https://github.com/OpenZWave/open-zwave open-zwave-read-only
+cd open-zwave-read-only
+sudo git fetch
+make -j 4
+ls
+cd ..
+ls
+sudo cp domoticz.sh /etc/init.d
+sudo chmod +x /etc/init.d/domoticz.sh
+sudo update-rc.d domoticz.sh defaults
+sudo vi /etc/init.d/domoticz.sh
+ls
+./domoticz 
+sudo service domoticz.sh start
+cd /etc/privoxy/
+ls
+vim default.action 
+sudo vim default.action 
+sudo service privoxy restart
+sudo vim default.action 
+ls
+vim user.filter 
+netsat -l
+netstat -l
+ls
+vim config 
+sudo vim default.action 
+ls
+vim config 
+cd /home/pi/
+socos play 10.0.0.2;socos play 10.0.0.6
+ls
+cd /var/www/
+ls
+vim /etc/apache2/
+vim /etc/apache2/sites-enabled/
+vim /etc/apache2/sites-enabled/000-default 
+netstat -l
+sudo vim /etc/privoxy/default.action 
+sudo /etc/init.d/privoxy restart
+sudo vim /etc/privoxy/default.action 
+vim index.html 
+sudo /etc/init.d/privoxy restart
+exit
+cd /etc/privoxy/
+ls
+vim config 
+:q!
+ifconfig
+vim config 
+sudo vim config 
+sudo /etc/init.d/privoxy restart
+vim /var/www/index.html 
+sudo vim /var/www/index.html 
+ls
+cd /var/www/
+ls
+vim puller.php 
+sudo vim /var/www/index.html 
+php index.html 
+vim puller.php l
+ls
+vim voiceconf.php 
+vim /var/www/index.html 
+vim index.html 
+ps -elf
+ls -la
+sudo vim index.html 
+cp index.html index.php
+sudo index.html index.php
+sudo cp index.html index.php
+sudo index.html index.php
+sudo vim index.html 
+ls
+cd /var/www/
+ls
+vim index.
+vim index.php 
+sudo vim index.
+sudo vim index.php 
+ls
+php index.php 
+sudo vim index.php 
+php index.php 
+sudo vim index.php 
+php index.php 
+sudo vim index.php 
+ls
+sudo su
+cd /var/www/
+ls
+vim devices
+rm devices*
+sudo su
+cd /var/w
+cd /var/www/
+ls
+vim zwavecontrol.php 
+ls
+vim zwavecontrol.php 
+sudo su
+exit

@@ -6,6 +6,9 @@
     <items>
       <rdf:Seq>
         <rdf:li rdf:resource="https://duckduckgo.com"/>
+        <rdf:li rdf:resource="http://10.0.0.50:80/"/>
+        <rdf:li rdf:resource="http://10.0.0.50:80/indexPage.psp"/>
+        <rdf:li rdf:resource="http://10.0.0.50:80/"/>
       </rdf:Seq>
     </items>
   </channel>
@@ -13,5 +16,17 @@
     <title>Search the web</title>
     <link>https://duckduckgo.com</link>
     <ephy:smartlink>https://duckduckgo.com/?q=%s&amp;t=raspberrypi</ephy:smartlink>
+  </item>
+  <item rdf:about="http://10.0.0.50:80/">
+    <title>Seagate Central Shared Storage (PersonalCloud)</title>
+    <link>http://10.0.0.50:80/</link>
+  </item>
+  <item rdf:about="http://10.0.0.50:80/indexPage.psp">
+    <title>Seagate Media Server (PersonalCloud)</title>
+    <link>http://10.0.0.50:80/indexPage.psp</link>
+  </item>
+  <item rdf:about="http://10.0.0.50:80/">
+    <title>PersonalCloud</title>
+    <link>http://10.0.0.50:80/</link>
   </item>
 </rdf:RDF>

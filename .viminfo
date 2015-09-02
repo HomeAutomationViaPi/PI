@@ -8,18 +8,33 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/listener
+~MSle0~/listen
+
+# Last Substitute String:
+$
 
 # Command Line History (newest to oldest):
+:q!
 :q
 :wq
+:w
+:q:q!
+:/listen
+:/proxy
+:/10.
+:/Caut
+:Q
+:/8083
 :1
+:22
+:21
+:17
+:19
+:16
+:qall
 :/listener
 :/listner
 :/list
-:q!
-:w
-:Q
 :20
 :/DHCP
 :6
@@ -43,6 +58,12 @@
 :q1
 
 # Search String History (newest to oldest):
+? listen
+? proxy
+? 10.
+? Caut
+? 8083
+?/24|grep 'report'|cut -d" " -f5
 ? listener
 ? listner
 ? list
@@ -67,173 +88,175 @@
 
 # Registers:
 "0	LINE	0
-	curl --data "source=nmap&data=$nmapdata&ID=$PiID&ip=$ip" http://$backendserver/internal/store.php
+	$level=$_POST[level];
 ""1	LINE	0
-	echo "$fingdata";
+	$Clevel=$_POST[Clevel];
 "2	LINE	0
-	echo "FING"
-	finddata==`sudo fing $brdc/$cidr -r1`
-	curl --data "source=fing&data=$fingdata&ID=$PiID&ip=$ip" http://$backendserver/internal/store.php
+	  </Device>
 "3	LINE	0
-	$target="10.0.0.1";
+	    <respondsToBtn>1A.1A.CC:4</respondsToBtn>
 "4	LINE	0
-	
+	    <level>0</level>
 "5	LINE	0
-	PiID="test123"
+	    <address>12.69.D6</address>
 "6	LINE	0
-	backendserver=10.8.0.1
+	    <devType>Dimmer</devType>
 "7	LINE	0
-	backendserver=10.8.0.1
+	    <shortName>lvroom</shortName>
 "8	LINE	0
-	backendserver=10.8.0.1
+	    <name>Living Room</name>
 "9	LINE	0
-	backendserver=10.8.0.1
+	  <Device>
 "-	CHAR	0
 	s
 
 # File marks:
-'0  2  0  ~/discover.sh
-'1  16  0  ~/discover.sh
-'2  15  3  ~/discover.sh
-'3  19  44  ~/discover.sh
-'4  22  23  ~/discover.sh
-'5  788  0  /etc/privoxy/config
-'6  3  0  /var/www/puller.php
-'7  2  2  /var/www/index.html
-'8  121  0  /etc/openvpn/client.conf
-'9  1  0  ~/discover.sh
+'0  3  16  /var/www/zwavecontrol.php
+'1  1  0  /var/www/zwavecontrol.php
+'2  10  0  /var/www/zwavecontrol.php
+'3  5  0  /var/www/zwavecontrol.php
+'4  1  0  /var/www/devices
+'5  4  11  /var/www/index.php
+'6  1  0  /var/www/index.
+'7  1  0  /var/www/index.html
+'8  2  0  /var/www/index.html
+'9  1  0  /var/www/voiceconf.php
 
 # Jumplist (newest first):
--'  2  0  ~/discover.sh
--'  1  0  ~/discover.sh
--'  16  0  ~/discover.sh
--'  15  3  ~/discover.sh
--'  19  44  ~/discover.sh
--'  22  23  ~/discover.sh
--'  788  0  /etc/privoxy/config
--'  1060  7  /etc/privoxy/config
--'  1080  63  /etc/privoxy/config
--'  1086  56  /etc/privoxy/config
--'  1166  55  /etc/privoxy/config
--'  1399  17  /etc/privoxy/config
--'  47  0  /etc/privoxy/config
--'  1  0  /etc/privoxy/config
--'  3  0  /var/www/puller.php
--'  1  0  /var/www/puller.php
--'  2  2  /var/www/index.html
+-'  3  16  /var/www/zwavecontrol.php
+-'  1  0  /var/www/zwavecontrol.php
+-'  10  0  /var/www/zwavecontrol.php
+-'  5  0  /var/www/zwavecontrol.php
+-'  1  0  /var/www/devices
+-'  4  11  /var/www/index.php
+-'  1  0  /var/www/index.php
+-'  1  0  /var/www/index.
 -'  1  0  /var/www/index.html
--'  121  0  /etc/openvpn/client.conf
--'  1  0  /etc/openvpn/client.conf
--'  1  0  ~/config.sh
--'  6  0  ~/discover.sh
--'  27  0  ~/discover.sh
--'  20  55  ~/discover.sh
--'  33  56  ~/discover.sh
--'  13  0  ~/discover.sh
--'  12  0  ~/discover.sh
--'  1  0  ~/checkin.sh
--'  3  0  ~/checkin.sh
--'  3  0  ~/discover.sh
--'  5  0  ~/config.sh
--'  4  0  ~/checkin.sh
--'  4  15  ~/discover.sh
--'  7  0  ~/checkin.sh
--'  11  12  ~/.commands.conf
--'  1  0  ~/.commands.conf
+-'  2  0  /var/www/index.html
+-'  1  0  /var/www/voiceconf.php
+-'  2  0  /var/www/puller.php
+-'  1  0  /var/www/puller.php
+-'  5  1  /var/www/index.html
+-'  776  0  /etc/privoxy/config
+-'  1  0  /etc/privoxy/config
+-'  1318  30  /etc/privoxy/config
+-'  1276  13  /etc/privoxy/config
+-'  1388  12  /etc/privoxy/config
+-'  1788  7  /etc/privoxy/config
+-'  193  0  /etc/privoxy/config
+-'  1  0  /etc/apache2/sites-enabled/000-default
+-'  7  0  /etc/apache2
+-'  8  0  /etc/apache2/sites-enabled
+-'  24  0  /etc/apache2
+-'  258  0  /etc/privoxy/config
+-'  775  16  /etc/privoxy/config
+-'  1279  56  /etc/privoxy/config
+-'  1286  63  /etc/privoxy/config
+-'  1300  25  /etc/privoxy/config
+-'  1797  7  /etc/privoxy/config
+-'  557  0  /etc/privoxy/config
+-'  92  0  /etc/privoxy/config
+-'  682  0  /etc/privoxy/config
+-'  74  0  /etc/privoxy/user.filter
+-'  1  0  /etc/privoxy/user.filter
+-'  4  0  /etc/privoxy/default.action
+-'  1  0  /etc/privoxy/default.action
+-'  1  0  /var/www/open-zwave-read-only/MOVED_TO_GITHUB
+-'  85  0  /etc/privoxy/trust
+-'  1  0  /etc/privoxy/trust
+-'  12  0  /etc/privoxy/match-all.action
+-'  1  0  /etc/privoxy/match-all.action
+-'  547  0  /etc/privoxy/default.action
+-'  93  0  /etc/init.d/zbw_connect
+-'  1  0  /etc/init.d/zbw_connect
+-'  8  0  /etc/zbw
+-'  1  0  /etc/zbw/local_port
+-'  1  0  /etc/z-way/box_type
+-'  8  0  /etc/z-way
+-'  268  0  /etc/apache2/apache2.conf
+-'  1  0  /etc/apache2/apache2.conf
+-'  4  19  /etc/mongoose/mongoose.conf
+-'  1  0  /etc/mongoose/mongoose.conf
+-'  5  2  /etc/mongoose/mongoose.conf
+-'  1200  0  /etc/privoxy/config
+-'  21  0  ~/lighton.py
+-'  1  2  ~/lighton.py
+-'  1  0  ~/devices.xml
+-'  2  2  ~/devices.xml
+-'  10  3  ~/lighton.py
+-'  19  1  ~/lighton.py
+-'  33  0  ~/pylights.py
+-'  1  0  ~/pylights.py
+-'  96  0  ~/mochad-0.1.16/README
+-'  1  0  ~/mochad-0.1.16/README
+-'  102  0  ~/mochad-0.1.16/configure
+-'  1  0  ~/mochad-0.1.16/configure
+-'  128  0  ~/mochad-0.1.16/README
+-'  1  0  ~/mochad-0.1.16/INSTALL
+-'  139  59  ~/mochad-0.1.16/README
+-'  71  0  ~/mochad-0.1.16/README
+-'  1  0  ~/mochad-0.1.16/apps/bash.sh
+-'  10  23  ~/mochad-0.1.16/apps/x10-tk.py
+-'  1  0  ~/mochad-0.1.16/apps/x10-tk.py
+-'  31  23  ~/mochad-0.1.16/apps/mochamon.pl
+-'  1  0  ~/mochad-0.1.16/apps/mochamon.pl
+-'  1  0  ~/vim
+-'  13  3  ~/dhcpmon.sh
 -'  1  0  ~/dhcpmon.sh
--'  1  0  ~/discover
--'  3  0  ~/discover
--'  6  0  ~/discover
--'  33  0  ~/discover
--'  28  32  ~/discover
--'  24  0  ~/discover
--'  15  0  ~/discover
--'  5  81  ~/discover
--'  4  0  ~/discover
--'  26  31  ~/discover
--'  16  33  ~/discover
--'  22  13  ~/discover
--'  19  0  ~/discover
--'  21  0  ~/discover
--'  20  62  ~/discover
--'  1  0  ~/store.php
--'  1  0  ~/store.php.1
--'  27  0  ~/discover
--'  23  11  ~/discover
--'  30  9  ~/discover
--'  2  0  ~/dhcpmon.sh
--'  17  0  ~/dhcpmon.sh
--'  18  0  ~/dhcpmon.sh
--'  1  2  ~/dhcpmsg.log
--'  13  13  ~/dhcpmon.sh
--'  10  12  ~/dhcpmon.sh
--'  1  0  /var/lib/dhcp/dhclient.leases
--'  308  0  /var/log/messages
--'  1  0  /var/log/messages
--'  29  4  ~/discover
--'  15  12  ~/dhcpmon.sh
--'  20  1  ~/dhcpmon.sh
--'  28  3  ~/dhcpmon.sh
--'  14  11  ~/discover
--'  11  38  ~/discover
--'  29  0  ~/index.html
--'  1  0  ~/index.html
--'  99  10  /etc/openvpn/client.conf
--'  79  0  /etc/openvpn/server.conf
--'  1  0  /etc/openvpn/server.conf
--'  12  12  ~/discover
--'  8  3  ~/discover
--'  1  0  ~/PiAUISuite/VoiceCommand/get_news.py
--'  7  0  ~/discover
--'  31  0  ~/discover
--'  74  0  ~/amap-5.4/README
--'  1  0  ~/amap-5.4/README
--'  1  0  ~/amap-5.4/INSTALL
--'  21  0  ~/amap-5.4/README
--'  35  9  ~/.commands.conf
--'  30  92  ~/.commands.conf
--'  33  64  ~/.commands.conf
--'  29  1  ~/.commands.conf
--'  1  0  ~/socos-0.1/requirements.txt
--'  1  0  ~/socos-0.1/setup.cfg
--'  1  0  ~/socos-0.1/setup.py
--'  1  0  ~/socos-0.1/setup.
--'  1  0  ~/socos-0.1/README.md
--'  1  0  ~/mjpg-streamer-r63/README
--'  1  0  /dev/lsusb
+-'  26  0  ~/discover.sh
+-'  1  0  ~/discover.sh
+-'  18  9  ~/discover.sh
+-'  21  27  ~/discover.sh
+-'  25  0  ~/discover.sh
+-'  13  0  ~/discover.sh
+-'  23  0  ~/discover.sh
+-'  22  0  ~/discover.sh
+-'  20  78  ~/discover.sh
+-'  15  0  ~/discover.sh
+-'  19  0  ~/discover.sh
+-'  17  14  ~/discover.sh
+-'  16  55  ~/discover.sh
+-'  27  0  ~/discover.sh
+-'  14  12  ~/discover.sh
+-'  32  0  ~/discover.sh
+-'  1  0  ~/PiAUISuite/VoiceCommand/tts
+-'  49  0  ~/PiAUISuite/VoiceCommand/tts
 
 # History of marks within files (newest to oldest):
 
-> ~/discover.sh
-	"	2	0
-	.	16	0
-	+	11	0
-	+	9	0
-	+	7	0
-	+	12	0
-	+	3	0
-	+	4	0
-	+	12	36
-	+	25	37
-	+	29	37
-	+	25	37
-	+	29	37
-	+	33	42
-	+	20	39
-	+	22	0
-	+	22	10
-	+	22	21
-	+	22	0
-	+	14	0
-	+	17	0
-	+	15	3
-	+	16	0
+> /var/www/zwavecontrol.php
+	"	3	16
+	^	3	17
+	.	3	16
+	+	5	0
+	+	5	0
+	+	5	0
+	+	3	16
 
-> /etc/privoxy/config
-	"	788	0
+> /var/www/devices
+	"	1	0
+
+> /var/www/index.php
+	"	4	11
+	^	4	12
+	.	4	11
+	+	3	14
+	+	4	11
+
+> /var/www/index.
+	"	1	0
+
+> /var/www/index.html
+	"	1	0
+	^	5	2
+	.	5	1
+	+	5	1
+
+> /var/www/voiceconf.php
+	"	1	0
 
 > /var/www/puller.php
-	"	3	0
+	"	2	0
 	^	3	24
 	.	3	0
 	+	9	0
@@ -244,39 +267,389 @@
 	+	5	0
 	+	3	0
 
-> /var/www/index.html
-	"	2	2
+> /etc/privoxy/config
+	"	776	0
+	^	1200	0
+	.	776	0
+	+	776	0
 
-> /etc/openvpn/client.conf
-	"	121	0
-	^	99	11
-	.	90	10
-	+	89	11
-	+	90	10
-
-> ~/config.sh
+> /etc/apache2/sites-enabled/000-default
 	"	1	0
-	.	4	0
-	+	3	0
-	+	5	0
-	+	4	0
 
-> ~/checkin.sh
+> /etc/privoxy/user.filter
+	"	74	0
+
+> /etc/privoxy/default.action
+	"	4	0
+
+> /var/www/open-zwave-read-only/MOVED_TO_GITHUB
 	"	1	0
-	^	3	0
+
+> /etc/privoxy/trust
+	"	85	0
+
+> /etc/privoxy/match-all.action
+	"	12	0
+	^	12	0
+	.	12	0
+	+	23	0
+	+	19	0
+	+	18	0
+	+	17	0
+	+	16	0
+	+	15	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	12	0
+
+> /etc/init.d/zbw_connect
+	"	93	0
+
+> /etc/zbw/local_port
+	"	1	0
+
+> /etc/z-way/box_type
+	"	1	0
+
+> /etc/apache2/apache2.conf
+	"	268	0
+
+> /etc/mongoose/mongoose.conf
+	"	4	19
+	^	4	20
+	.	4	20
+	+	4	20
+
+> ~/lighton.py
+	"	21	0
+	^	21	0
+	.	21	0
+	+	1	0
+	+	22	0
+	+	20	0
+	+	6	2
+	+	4	3
+	+	1	0
+	+	6	0
+	+	11	15
+	+	21	0
+
+> ~/devices.xml
+	"	1	0
 	.	2	0
+	+	2	0
+	+	2	0
+	+	3	0
+	+	2	0
+
+> ~/pylights.py
+	"	33	0
+
+> ~/mochad-0.1.16/README
+	"	96	0
+
+> ~/mochad-0.1.16/configure
+	"	102	0
+
+> ~/mochad-0.1.16/INSTALL
+	"	1	0
+
+> ~/mochad-0.1.16/apps/bash.sh
+	"	1	0
+
+> ~/mochad-0.1.16/apps/x10-tk.py
+	"	10	23
+
+> ~/mochad-0.1.16/apps/mochamon.pl
+	"	31	23
+
+> ~/vim
+	"	1	0
+
+> ~/dhcpmon.sh
+	"	13	3
+	.	13	0
+	+	19	0
+	+	14	1
+	+	13	12
 	+	5	0
 	+	7	0
-	+	5	67
-	+	4	0
-	+	4	5
-	+	4	0
+	+	7	1
+	+	8	0
+	+	7	1
+	+	8	0
+	+	7	26
 	+	2	0
-	+	4	0
+	+	7	63
+	+	8	9
 	+	2	0
+	+	8	0
+	+	5	0
+	+	3	0
+	+	2	0
+	+	7	0
+	+	14	0
+	+	14	0
+	+	18	0
+	+	14	0
+	+	18	0
+	+	7	0
+	+	11	0
+	+	10	12
+	+	9	48
+	+	10	2
+	+	11	1
+	+	12	2
+	+	13	2
+	+	14	1
+	+	10	2
+	+	14	3
+	+	10	18
+	+	13	0
+	+	14	0
+	+	17	0
+	+	14	0
+	+	15	24
+	+	16	25
+	+	3	23
+	+	10	21
+	+	8	0
+	+	10	7
+	+	8	14
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	3	36
+	+	15	25
+	+	16	38
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	8	0
+	+	2	0
+	+	12	3
+	+	13	3
+	+	13	17
+	+	13	13
+	+	12	3
+	+	13	0
+
+> ~/discover.sh
+	"	26	0
+	^	13	0
+	.	27	0
+	+	11	0
+	+	9	0
+	+	7	0
+	+	12	0
+	+	3	0
+	+	4	0
+	+	12	36
+	+	38	37
+	+	42	37
+	+	38	37
+	+	42	37
+	+	46	42
+	+	14	39
+	+	30	0
+	+	30	10
+	+	30	21
+	+	30	0
+	+	14	0
+	+	14	0
+	+	14	3
+	+	14	0
+	+	14	0
+	+	14	0
+	+	14	23
+	+	15	54
+	+	14	0
+	+	31	0
+	+	31	0
+	+	33	0
+	+	14	58
+	+	14	0
+	+	14	20
+	+	14	0
+	+	14	0
+	+	14	0
+	+	30	0
+	+	16	0
+	+	17	0
+	+	20	16
+	+	20	40
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	16	7
+	+	14	0
+	+	27	0
+	+	16	55
+	+	22	0
+	+	22	0
+	+	19	0
+	+	20	0
+	+	22	0
+	+	22	0
+	+	20	0
+	+	22	17
+	+	20	50
+	+	17	15
+	+	17	0
+	+	19	0
+	+	20	78
+	+	30	0
+	+	15	14
+	+	22	24
+	+	22	16
+	+	22	0
+	+	22	14
+	+	22	0
+	+	18	9
+	+	22	29
+	+	22	0
+	+	23	0
+	+	22	23
+	+	21	24
+	+	23	0
+	+	22	0
+	+	21	21
+	+	23	15
+	+	21	0
+	+	21	0
+	+	22	0
+	+	21	27
+	+	26	0
+	+	30	0
+	+	24	36
+	+	23	0
+	+	21	26
+	+	16	14
+	+	32	17
+	+	27	0
+	a	16	0
+
+> ~/PiAUISuite/VoiceCommand/tts
+	"	1	0
+	^	7	0
+	.	17	0
+	+	43	0
+	+	44	0
+	+	45	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	49	0
+	+	50	0
+	+	52	0
+	+	53	0
+	+	54	0
+	+	55	0
+	+	56	0
+	+	58	0
+	+	59	0
+	+	60	0
+	+	61	0
+	+	62	0
+	+	63	0
+	+	64	0
+	+	65	0
+	+	66	0
+	+	22	14
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	34	0
+	+	36	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	42	4
+	+	44	0
+	+	45	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	49	0
+	+	51	0
+	+	52	0
+	+	53	0
+	+	55	0
+	+	56	0
+	+	57	0
+	+	58	0
+	+	60	0
+	+	61	0
+	+	63	0
+	+	21	0
+	+	2	0
+	+	2	0
+	+	21	0
+	+	1	1
+	+	17	2
+	+	12	10
+	+	16	4
+	+	21	0
+	+	2	0
+	+	2	0
+	+	3	8
+	+	18	0
+	+	19	21
+	+	11	0
+	+	3	16
+	+	4	0
+	+	5	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	12	0
+	+	13	0
+	+	12	0
+	+	13	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
 
 > ~/.commands.conf
-	"	11	12
+	"	51	0
 	^	35	10
 	.	34	9
 	+	1	0
@@ -378,77 +751,35 @@
 	+	32	7
 	+	34	9
 
-> ~/dhcpmon.sh
+> /etc/resolv.conf
+	"	3	21
+
+> /etc/openvpn/client.conf
+	"	121	0
+	^	99	11
+	.	90	10
+	+	89	11
+	+	90	10
+
+> ~/config.sh
 	"	1	0
-	^	17	0
-	.	2	0
-	+	19	0
-	+	14	1
-	+	13	12
-	+	5	0
-	+	7	0
-	+	7	1
-	+	8	0
-	+	7	1
-	+	8	0
-	+	7	26
-	+	2	0
-	+	7	63
-	+	8	9
-	+	2	0
-	+	8	0
-	+	5	0
+	.	4	0
 	+	3	0
+	+	5	0
+	+	4	0
+
+> ~/checkin.sh
+	"	1	0
+	^	3	0
+	.	2	0
+	+	5	0
+	+	7	0
+	+	5	67
+	+	4	0
+	+	4	5
+	+	4	0
 	+	2	0
-	+	7	0
-	+	14	0
-	+	14	0
-	+	18	0
-	+	14	0
-	+	18	0
-	+	7	0
-	+	11	0
-	+	10	12
-	+	9	48
-	+	10	2
-	+	11	1
-	+	12	2
-	+	13	2
-	+	14	1
-	+	10	2
-	+	14	3
-	+	10	18
-	+	13	0
-	+	14	0
-	+	17	0
-	+	14	0
-	+	15	24
-	+	16	25
-	+	3	23
-	+	10	21
-	+	8	0
-	+	10	7
-	+	8	14
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	3	36
-	+	15	25
-	+	16	38
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	8	0
+	+	4	0
 	+	2	0
 
 > ~/discover
@@ -768,111 +1099,6 @@
 > ~/PiAUISuite/VoiceCommand/voicecommand
 	"	1	0
 
-> ~/PiAUISuite/VoiceCommand/tts
-	"	3	14
-	^	7	0
-	.	17	0
-	+	43	0
-	+	44	0
-	+	45	0
-	+	46	0
-	+	47	0
-	+	48	0
-	+	49	0
-	+	50	0
-	+	52	0
-	+	53	0
-	+	54	0
-	+	55	0
-	+	56	0
-	+	58	0
-	+	59	0
-	+	60	0
-	+	61	0
-	+	62	0
-	+	63	0
-	+	64	0
-	+	65	0
-	+	66	0
-	+	22	14
-	+	26	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	32	0
-	+	34	0
-	+	36	0
-	+	37	0
-	+	38	0
-	+	39	0
-	+	40	0
-	+	41	0
-	+	42	4
-	+	44	0
-	+	45	0
-	+	46	0
-	+	47	0
-	+	48	0
-	+	49	0
-	+	51	0
-	+	52	0
-	+	53	0
-	+	55	0
-	+	56	0
-	+	57	0
-	+	58	0
-	+	60	0
-	+	61	0
-	+	63	0
-	+	21	0
-	+	2	0
-	+	2	0
-	+	21	0
-	+	1	1
-	+	17	2
-	+	12	10
-	+	16	4
-	+	21	0
-	+	2	0
-	+	2	0
-	+	3	8
-	+	18	0
-	+	19	21
-	+	11	0
-	+	3	16
-	+	4	0
-	+	5	0
-	+	4	0
-	+	5	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	12	0
-	+	13	0
-	+	12	0
-	+	13	0
-	+	5	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-
 > ~/PiAUISuite/VoiceCommand/Makefile
 	"	40	0
 
@@ -944,15 +1170,3 @@
 
 > ~/PiAUISuite/VoiceCommand/x86/voicecommand
 	"	1	0
-
-> /home/.commands.conf
-	"	1	0
-
-> ~/PiAUISuite/README
-	"	46	13
-
-> /boot/config.txt
-	"	2	0
-	^	33	0
-	.	33	0
-	+	33	0

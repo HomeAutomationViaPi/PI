@@ -9,9 +9,9 @@ while true; do
 	#if found and set for each ip found in the log 
 	if [ ! -z "$IPS" ];then
 		for ip in $IPS; do
-			echo "IP: $ip"
-			nmap $ip/24		
+			echo "IP: $ip
 		done
+		$dis=`discover.sh&`
 		sudo killall dhcpdump &	
 		sudo dhcpdump -i wlan0 >dhcpmsg.log &
 	fi
